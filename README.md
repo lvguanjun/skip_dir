@@ -5,8 +5,9 @@
 
 ## 使用方法
 `sh skip_dir.sh root exclude1 exclude2 ...`
+`sh simpile_skip_dir.sh root exclude1 exclude2 ...`
 
 ***注：exclude为相对目录***
 
 ## 其他
-当前有更好的方法，find遍历基准目录,深度为最深的跳过目录，`grep -v`去除跳过目录的父子目录
+simpile_skip_dir.sh方法更好，find遍历基准目录,深度为最深的跳过目录，`grep -v`去除跳过目录的父子目录
